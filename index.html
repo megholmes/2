@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <title >Megan Holmes</title>
+<style>
+    body {
+    background-color: white;
+    }
+    * {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 60px;
+}
+    .col-1 {width: 100%;}
+    .col-2 {width: 50%;}
+    .col-3 {width: 50%;}
+    .col-4 {width: 50%;}
+    .col-5 {width: 50%;}
+    .col-6 {width: 100%}
+    @media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }    
+    @media only screen and (orientation: portrait) {
+    div class="col-1" {
+    display: none;
+}
+}
+}
+
+<head>
+<style>
+ul {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightgray;
+}
+
+.active {
+  background-color: plum;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+</style>
+
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="resume.html">Resume</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="contactme.html">Contact Me</a></li>
+</ul>
+
+
+</head>
+<body>
+
+
+<div class="col-1">
+        <h1>About Me</h1>
+        <img src="images/profile.png" class="w3-circle" alt = "profile picture"/>
+      </div>
+
+    <div class="col-2">
+            <h1>My Career</h1>
+            <p>I graduated with a BA in History from Adrian College and spent a few years gaining financial planning and recruiting experience prior to finding my calling. I developed a strong interest in process improvement and implementation, and was determined to find ways to develop my skills. I entered into the University of Michigan’s School of Information in Fall of 2015 as a rather non traditional part time student. I continued to work full tie as I pursued my specialization in Human Computer Interaction, focusing on Usability Research and Needs Evaluation. I completed my internship at Quicken Loans in Downtown Detroit as a Business Metrics Analyst Intern, and hope to graduate in December 2018</p>
+    </div>
+    <div class="col-3">
+    <img src="images/adrian-college-logo.png" alt = "Adrian College Logo"/>
+    <img src="images/umsilogo.png" alt = "School of Information Logo"/>
+    </div>
+
+    <div class="col-4">
+            <h1>Skills</h1>
+            <p> Adobe Photoshop, Illustrator, InDesign, Microsoft Word, Excel, PowerPoint, and Access, Google Sheets and Analytics, SPSS, Usability testing, User Interviews, Questionnaire Design, Web Design, Python</p>
+        </div>
+    <div class="col-5">
+            <h1>Personal Stuff</h1>
+            <p> I live with my husband, Nate, daughter, Violet, and two cats, Edgar and Eleanor, in Westland. In my free time, I enjoy reading, binging Netflix, baking, and making candles. </p>
+        </div>
+
+    <div class="col-6">
+    <img src="images/violet.png" alt = "Photo of my daughter Violet"/>
+    <img src="images/couple.png" alt = "Photo of me and my husband"/>
+    <img src="images/cats.png" alt = "Photo of my cats, Edgar and Eleanor"/>
+    </div>
+    <div class="footer">
+        <p> Updated
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+              </script> 
+              </p>
+            
+      </div>
+</body>
+
